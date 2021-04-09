@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Searchview-->
+    <style name="SearchTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textHint</item>
+    </style>
+
+    <!--<style name="SearchTextViewTheme" parent="android:Theme.Holo.Light.DarkActionBar" >
+        <item name="android:textColor">@color/textHint</item>
+    </style>-->
+
+    <!--Collapsingtoolbar-->
+    <style name="expandedTitleText" parent="@android:style/TextAppearance" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--Tabs-->
+    <style name="TabStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/myTabText</item>
+    </style>
+
+
+    <style name="myTabText" parent="TextAppearance.AppCompat.Button" >
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--AlertDialog-->
+    <style name="myDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert" >
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>
